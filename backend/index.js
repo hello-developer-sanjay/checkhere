@@ -55,6 +55,9 @@ app.get('/api/properties', async (req, res) => {
 
 
 
+app.get('/', (req, res) => {
+  res.send('Welcome to My API');
+});
 
 
 
