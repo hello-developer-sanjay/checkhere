@@ -4,7 +4,7 @@
 import React, { useState } from 'react';
 import CitySelector from './CitySelector';
 import api from '../services/api';
-import '../styles/header.css';
+import '../styles/Header.css';
 
 const StickyHeader = ({ selectedCity, onCityChange }) => {
   const [searchCity, setSearchCity] = useState('');
